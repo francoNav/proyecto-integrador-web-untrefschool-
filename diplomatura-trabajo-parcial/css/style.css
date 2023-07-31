@@ -10,6 +10,7 @@ body{
     margin: 0;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+
 }
 html {
     font-size: 62.5%;
@@ -95,9 +96,10 @@ font-family: 'Ysabeau Office', sans-serif*/
 }
 .contenedor-main{
     width: 100%;
-    max-width: 120rem;
+    
     display: flex;
     flex-direction: column;
+
 }
 
 .quienes-somos h2{
@@ -113,27 +115,30 @@ font-family: 'Ysabeau Office', sans-serif*/
     .imagen-main{
         flex-direction: column;
         
-        
-    }
+}
 }
 .imagen-main{
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
-    padding-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+   
+    
 }
 
 .imagen-main img { 
-    width: 48%;
-    height: 400px;
+    width: 300px;
+    height: 300px;
    
 }
 .imagen-main p {
     width: 48%;
-    margin-left: 10rem;
-    margin-top: 10rem;
+    margin: 1rem;
     text-align: center;
     color: var(--azulOscuro);
+    display: flex;
+    align-items: center;
 }
 
 /** servicios**/
